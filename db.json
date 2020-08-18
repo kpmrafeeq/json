@@ -8,7 +8,8 @@
 			"address": null,
 			"groups": [
 				"regular"
-			]
+			],
+			"userId": "1"
 		},
 		{
 			"id": 295,
@@ -18,7 +19,8 @@
 			"address": null,
 			"groups": [
 				"regular"
-			]
+			],
+			"userId": "1"
 		},
 		{
 			"id": 296,
@@ -28,7 +30,8 @@
 			"address": null,
 			"groups": [
 				"regular"
-			]
+			],
+			"userId": "1"
 		},
 		{
 			"id": 297,
@@ -38,7 +41,8 @@
 			"address": null,
 			"groups": [
 				"regular"
-			]
+			],
+			"userId": "1"
 		},
 		{
 			"id": 298,
@@ -48,7 +52,8 @@
 			"address": null,
 			"groups": [
 				"regular"
-			]
+			],
+			"userId": "1"
 		}
 	],
 	"posts": [
