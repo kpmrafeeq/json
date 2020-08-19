@@ -1,6 +1,32 @@
 {
-	"reviews":[],
-	"commands":[],
+	"reviews":[
+		{
+		"id": 0,
+		"customer_id":0,
+		"date": "2019-02-05T15:19:59.455Z"
+		}
+	],
+	"commands":[
+	{
+		"id": 0,
+		"customer_id":0,
+		"date": "2019-02-05T15:19:59.455Z"
+		}
+	],
+	"events":[
+	{
+		"id": 0,
+		"customer_id":0,
+		"date": "2019-02-05T15:19:59.455Z"
+		}
+	],
+	"orders":[
+	{
+		"id": 0,
+		"customer_id":0,
+		"date": "2019-02-05T15:19:59.455Z"
+		}
+	],
 	"customers":[
   {
     "id": 0,
