@@ -1,18 +1,57 @@
 {
 	"reviews":[
 		{
-		"id": 0,
-		"customer_id":0,
-		"date": "2019-02-05T15:19:59.455Z"
-		}
+  "id": 1,
+  "date": "2019-07-14T07:15:55.561Z",
+  "status": "accepted",
+  "command_id": 1,
+  "product_id": 98,
+  "customer_id": 1,
+  "rating": 3,
+  "comment": "Aliquid odit numquam et cupiditate repellat qui suscipit et libero. Molestiae maxime quod odio. Possimus et ut quod nobis ab non error quis. Praesentium voluptate occaecati nihil.\n \rSunt quidem voluptas rerum eaque mollitia delectus corporis quidem. Voluptatem id quia. Et quidem quidem dolorem nulla voluptatem. Perferendis atque qui autem temporibus nesciunt a aut in. Atque cupiditate consequatur dolorem sint. Fugiat voluptas dolor sit architecto eum.\n \rQuibusdam neque quas sequi vitae. Et at in consequatur commodi architecto eligendi incidunt non. Neque aut a. Rerum vel aut repudiandae rerum et."
+}
 	],
 	"commands":[
-	{
-		"id": 0,
-		"customer_id":0,
-		"date": "2019-02-05T15:19:59.455Z"
-		}
+	  "id": 1,
+  "reference": "ZC1DP1",
+  "date": "2018-03-19T09:34:45.363Z",
+  "customer_id": 1,
+  "basket": [
+    {
+      "product_id": 98,
+      "quantity": 2
+    },
+    {
+      "product_id": 127,
+      "quantity": 4
+    },
+    {
+      "product_id": 93,
+      "quantity": 1
+    }
+  ],
+  "total_ex_taxes": 287.78,
+  "delivery_fees": 4.22,
+  "tax_rate": 0.2,
+  "taxes": 58.4,
+  "total": 350.4,
+  "status": "cancelled",
+  "returned": false
+}
 	],
+"invoices":[
+	{
+  "id": 1,
+  "date": "2016-05-31T22:22:54.784Z",
+  "command_id": 1,
+  "customer_id": 1,
+  "total_ex_taxes": 502.53,
+  "delivery_fees": 5.8,
+  "tax_rate": 0.2,
+  "taxes": 101.67,
+  "total": 610
+}
+	]
 	"events":[
 	{
 		"id": 0,
