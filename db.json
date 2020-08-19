@@ -1,330 +1,274 @@
 {
-	"reviews":[
+	"commands": [
 		{
-  "id": 1,
-  "date": "2019-07-14T07:15:55.561Z",
-  "status": "accepted",
-  "command_id": 1,
-  "product_id": 98,
-  "customer_id": 1,
-  "rating": 3,
-  "comment": "Aliquid odit numquam et cupiditate repellat qui suscipit et libero. Molestiae maxime quod odio. Possimus et ut quod nobis ab non error quis. Praesentium voluptate occaecati nihil.\n \rSunt quidem voluptas rerum eaque mollitia delectus corporis quidem. Voluptatem id quia. Et quidem quidem dolorem nulla voluptatem. Perferendis atque qui autem temporibus nesciunt a aut in. Atque cupiditate consequatur dolorem sint. Fugiat voluptas dolor sit architecto eum.\n \rQuibusdam neque quas sequi vitae. Et at in consequatur commodi architecto eligendi incidunt non. Neque aut a. Rerum vel aut repudiandae rerum et."
-}
+			"id": 1,
+			"reference": "ZC1DP1",
+			"date": "2018-03-19T09:34:45.363Z",
+			"customer_id": 1,
+			"basket": [
+				{
+					"product_id": 98,
+					"quantity": 2
+				},
+				{
+					"product_id": 127,
+					"quantity": 4
+				},
+				{
+					"product_id": 93,
+					"quantity": 1
+				}
+			],
+			"total_ex_taxes": 287.78,
+			"delivery_fees": 4.22,
+			"tax_rate": 0.2,
+			"taxes": 58.4,
+			"total": 350.4,
+			"status": "cancelled",
+			"returned": false
+		}
 	],
-	"commands":[
-	  "id": 1,
-  "reference": "ZC1DP1",
-  "date": "2018-03-19T09:34:45.363Z",
-  "customer_id": 1,
-  "basket": [
-    {
-      "product_id": 98,
-      "quantity": 2
-    },
-    {
-      "product_id": 127,
-      "quantity": 4
-    },
-    {
-      "product_id": 93,
-      "quantity": 1
-    }
-  ],
-  "total_ex_taxes": 287.78,
-  "delivery_fees": 4.22,
-  "tax_rate": 0.2,
-  "taxes": 58.4,
-  "total": 350.4,
-  "status": "cancelled",
-  "returned": false
-}
+	"invoices": [
+		{
+			"id": 1,
+			"date": "2016-05-31T22:22:54.784Z",
+			"command_id": 1,
+			"customer_id": 1,
+			"total_ex_taxes": 502.53,
+			"delivery_fees": 5.8,
+			"tax_rate": 0.2,
+			"taxes": 101.67,
+			"total": 610
+		}
 	],
-"invoices":[
-	{
-  "id": 1,
-  "date": "2016-05-31T22:22:54.784Z",
-  "command_id": 1,
-  "customer_id": 1,
-  "total_ex_taxes": 502.53,
-  "delivery_fees": 5.8,
-  "tax_rate": 0.2,
-  "taxes": 101.67,
-  "total": 610
-}
+	"events": [
+		{
+			"id": 0,
+			"customer_id": 0,
+			"date": "2019-02-05T15:19:59.455Z"
+		}
+	],
+	"orders": [
+		{
+			"id": 0,
+			"customer_id": 0,
+			"date": "2019-02-05T15:19:59.455Z"
+		}
+	],
+	"reviews": [
+		{
+			"id": 1,
+			"date": "2019-07-14T07:15:55.561Z",
+			"status": "accepted",
+			"command_id": 1,
+			"product_id": 98,
+			"customer_id": 1,
+			"rating": 3,
+			"comment": "Aliquid odit numquam et cupiditate repellat qui suscipit et libero. Molestiae maxime quod odio. Possimus et ut quod nobis ab non error quis. Praesentium voluptate occaecati nihil.\n \rSunt quidem voluptas rerum eaque mollitia delectus corporis quidem. Voluptatem id quia. Et quidem quidem dolorem nulla voluptatem. Perferendis atque qui autem temporibus nesciunt a aut in. Atque cupiditate consequatur dolorem sint. Fugiat voluptas dolor sit architecto eum.\n \rQuibusdam neque quas sequi vitae. Et at in consequatur commodi architecto eligendi incidunt non. Neque aut a. Rerum vel aut repudiandae rerum et."
+		}
+	],
+	"customers": [
+		{
+			"id": 0,
+			"first_name": "Easter",
+			"last_name": "Ortiz",
+			"email": "Easter.Ortiz12@yahoo.com",
+			"address": null,
+			"zipcode": null,
+			"city": null,
+			"avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/yecidsm/128.jpg",
+			"birthday": null,
+			"first_seen": "2019-02-05T15:19:59.455Z",
+			"last_seen": "2019-11-27T04:12:37.775Z",
+			"has_ordered": false,
+			"latest_purchase": null,
+			"has_newsletter": true,
+			"groups": [],
+			"nb_commands": 0,
+			"total_spent": 0
+		},
+		{
+			"id": 1,
+			"first_name": "Claudine",
+			"last_name": "Metz",
+			"email": "Claudine_Metz99@yahoo.com",
+			"address": "Heaney Row",
+			"zipcode": "37462-7770",
+			"city": "McClurestad",
+			"avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/mr_subtle/128.jpg",
+			"birthday": "1987-09-07T08:20:31.119Z",
+			"first_seen": "2020-07-04T11:45:49.473Z",
+			"last_seen": "2020-07-28T03:23:06.402Z",
+			"has_ordered": true,
+			"latest_purchase": "2019-12-11T06:06:27.251Z",
+			"has_newsletter": false,
+			"groups": [],
+			"nb_commands": 3,
+			"total_spent": 400.9
+		},
+		{
+			"id": 2,
+			"first_name": "Sheridan",
+			"last_name": "Friesen",
+			"email": "Sheridan_Friesen34@gmail.com",
+			"address": "Nathaniel Freeway",
+			"zipcode": "21167",
+			"city": "South Wellington",
+			"avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/nvkznemo/128.jpg",
+			"birthday": "1986-01-24T08:42:30.966Z",
+			"first_seen": "2019-01-21T16:06:16.099Z",
+			"last_seen": "2020-06-22T16:18:46.899Z",
+			"has_ordered": true,
+			"latest_purchase": "2019-05-20T01:15:49.577Z",
+			"has_newsletter": false,
+			"groups": [
+				"ordered_once"
+			],
+			"nb_commands": 1,
+			"total_spent": 450.67
+		},
+		{
+			"id": 3,
+			"first_name": "Donavon",
+			"last_name": "Ebert",
+			"email": "Donavon.Ebert71@yahoo.com",
+			"address": null,
+			"zipcode": null,
+			"city": null,
+			"avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/sainraja/128.jpg",
+			"birthday": null,
+			"first_seen": "2020-04-03T04:35:23.896Z",
+			"last_seen": "2020-08-03T06:06:33.287Z",
+			"has_ordered": false,
+			"latest_purchase": null,
+			"has_newsletter": true,
+			"groups": [],
+			"nb_commands": 0,
+			"total_spent": 0
+		},
+		{
+			"id": 4,
+			"first_name": "Garrett",
+			"last_name": "Witting",
+			"email": "Garrett24@gmail.com",
+			"address": null,
+			"zipcode": null,
+			"city": null,
+			"avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/baliomega/128.jpg",
+			"birthday": null,
+			"first_seen": "2020-02-28T08:04:18.835Z",
+			"last_seen": "2020-04-19T01:10:38.701Z",
+			"has_ordered": false,
+			"latest_purchase": null,
+			"has_newsletter": true,
+			"groups": [
+				"regular"
+			],
+			"nb_commands": 0,
+			"total_spent": 0
+		},
+		{
+			"id": 5,
+			"first_name": "Elza",
+			"last_name": "Champlin",
+			"email": "Elza_Champlin8@gmail.com",
+			"address": null,
+			"zipcode": null,
+			"city": null,
+			"avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/lanceguyatt/128.jpg",
+			"birthday": null,
+			"first_seen": "2019-11-20T06:52:30.196Z",
+			"last_seen": "2020-06-28T03:53:39.113Z",
+			"has_ordered": false,
+			"latest_purchase": null,
+			"has_newsletter": true,
+			"groups": [
+				"regular"
+			],
+			"nb_commands": 0,
+			"total_spent": 0
+		},
+		{
+			"id": 6,
+			"first_name": "Fay",
+			"last_name": "Kutch",
+			"email": "Fay.Kutch46@hotmail.com",
+			"address": "Deon Meadow",
+			"zipcode": "61929-3675",
+			"city": "North Darlenestad",
+			"avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/oskamaya/128.jpg",
+			"birthday": "1961-06-26T16:05:09.280Z",
+			"first_seen": "2020-07-16T15:15:18.390Z",
+			"last_seen": "2020-07-21T23:58:01.006Z",
+			"has_ordered": true,
+			"latest_purchase": "2019-03-23T15:38:18.983Z",
+			"has_newsletter": false,
+			"groups": [
+				"returns"
+			],
+			"nb_commands": 3,
+			"total_spent": 692.04
+		},
+		{
+			"id": 7,
+			"first_name": "Pink",
+			"last_name": "Bashirian",
+			"email": "Pink_Bashirian@hotmail.com",
+			"address": null,
+			"zipcode": null,
+			"city": null,
+			"avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/safrankov/128.jpg",
+			"birthday": null,
+			"first_seen": "2018-07-05T09:21:39.177Z",
+			"last_seen": "2020-08-05T09:35:52.761Z",
+			"has_ordered": false,
+			"latest_purchase": null,
+			"has_newsletter": true,
+			"groups": [
+				"regular"
+			],
+			"nb_commands": 0,
+			"total_spent": 0
+		},
+		{
+			"id": 8,
+			"first_name": "Mylene",
+			"last_name": "Zulauf",
+			"email": "Mylene_Zulauf8@hotmail.com",
+			"address": null,
+			"zipcode": null,
+			"city": null,
+			"avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/stan/128.jpg",
+			"birthday": null,
+			"first_seen": "2018-06-03T13:59:25.626Z",
+			"last_seen": "2020-06-30T13:31:21.572Z",
+			"has_ordered": false,
+			"latest_purchase": null,
+			"has_newsletter": true,
+			"groups": [],
+			"nb_commands": 0,
+			"total_spent": 0
+		},
+		{
+			"id": 9,
+			"first_name": "Liza",
+			"last_name": "Green",
+			"email": "Liza93@yahoo.com",
+			"address": "Reynold Motorway",
+			"zipcode": "48719-9555",
+			"city": "Tremblaymouth",
+			"avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/exentrich/128.jpg",
+			"birthday": "2006-07-22T02:05:03.805Z",
+			"first_seen": "2020-05-28T11:12:11.644Z",
+			"last_seen": "2020-06-30T12:44:11.131Z",
+			"has_ordered": true,
+			"latest_purchase": "2020-05-08T16:08:49.799Z",
+			"has_newsletter": false,
+			"groups": [
+				"reviewer"
+			],
+			"nb_commands": 3,
+			"total_spent": 691.71
+		}
 	]
-	"events":[
-	{
-		"id": 0,
-		"customer_id":0,
-		"date": "2019-02-05T15:19:59.455Z"
-		}
-	],
-	"orders":[
-	{
-		"id": 0,
-		"customer_id":0,
-		"date": "2019-02-05T15:19:59.455Z"
-		}
-	],
-	"customers":[
-  {
-    "id": 0,
-    "first_name": "Easter",
-    "last_name": "Ortiz",
-    "email": "Easter.Ortiz12@yahoo.com",
-    "address": null,
-    "zipcode": null,
-    "city": null,
-    "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/yecidsm/128.jpg",
-    "birthday": null,
-    "first_seen": "2019-02-05T15:19:59.455Z",
-    "last_seen": "2019-11-27T04:12:37.775Z",
-    "has_ordered": false,
-    "latest_purchase": null,
-    "has_newsletter": true,
-    "groups": [],
-    "nb_commands": 0,
-    "total_spent": 0
-  },
-  {
-    "id": 1,
-    "first_name": "Claudine",
-    "last_name": "Metz",
-    "email": "Claudine_Metz99@yahoo.com",
-    "address": "Heaney Row",
-    "zipcode": "37462-7770",
-    "city": "McClurestad",
-    "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/mr_subtle/128.jpg",
-    "birthday": "1987-09-07T08:20:31.119Z",
-    "first_seen": "2020-07-04T11:45:49.473Z",
-    "last_seen": "2020-07-28T03:23:06.402Z",
-    "has_ordered": true,
-    "latest_purchase": "2019-12-11T06:06:27.251Z",
-    "has_newsletter": false,
-    "groups": [],
-    "nb_commands": 3,
-    "total_spent": 400.9
-  },
-  {
-    "id": 2,
-    "first_name": "Sheridan",
-    "last_name": "Friesen",
-    "email": "Sheridan_Friesen34@gmail.com",
-    "address": "Nathaniel Freeway",
-    "zipcode": "21167",
-    "city": "South Wellington",
-    "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/nvkznemo/128.jpg",
-    "birthday": "1986-01-24T08:42:30.966Z",
-    "first_seen": "2019-01-21T16:06:16.099Z",
-    "last_seen": "2020-06-22T16:18:46.899Z",
-    "has_ordered": true,
-    "latest_purchase": "2019-05-20T01:15:49.577Z",
-    "has_newsletter": false,
-    "groups": [
-      "ordered_once"
-    ],
-    "nb_commands": 1,
-    "total_spent": 450.67
-  },
-  {
-    "id": 3,
-    "first_name": "Donavon",
-    "last_name": "Ebert",
-    "email": "Donavon.Ebert71@yahoo.com",
-    "address": null,
-    "zipcode": null,
-    "city": null,
-    "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/sainraja/128.jpg",
-    "birthday": null,
-    "first_seen": "2020-04-03T04:35:23.896Z",
-    "last_seen": "2020-08-03T06:06:33.287Z",
-    "has_ordered": false,
-    "latest_purchase": null,
-    "has_newsletter": true,
-    "groups": [],
-    "nb_commands": 0,
-    "total_spent": 0
-  },
-  {
-    "id": 4,
-    "first_name": "Garrett",
-    "last_name": "Witting",
-    "email": "Garrett24@gmail.com",
-    "address": null,
-    "zipcode": null,
-    "city": null,
-    "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/baliomega/128.jpg",
-    "birthday": null,
-    "first_seen": "2020-02-28T08:04:18.835Z",
-    "last_seen": "2020-04-19T01:10:38.701Z",
-    "has_ordered": false,
-    "latest_purchase": null,
-    "has_newsletter": true,
-    "groups": [
-      "regular"
-    ],
-    "nb_commands": 0,
-    "total_spent": 0
-  },
-  {
-    "id": 5,
-    "first_name": "Elza",
-    "last_name": "Champlin",
-    "email": "Elza_Champlin8@gmail.com",
-    "address": null,
-    "zipcode": null,
-    "city": null,
-    "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/lanceguyatt/128.jpg",
-    "birthday": null,
-    "first_seen": "2019-11-20T06:52:30.196Z",
-    "last_seen": "2020-06-28T03:53:39.113Z",
-    "has_ordered": false,
-    "latest_purchase": null,
-    "has_newsletter": true,
-    "groups": [
-      "regular"
-    ],
-    "nb_commands": 0,
-    "total_spent": 0
-  },
-  {
-    "id": 6,
-    "first_name": "Fay",
-    "last_name": "Kutch",
-    "email": "Fay.Kutch46@hotmail.com",
-    "address": "Deon Meadow",
-    "zipcode": "61929-3675",
-    "city": "North Darlenestad",
-    "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/oskamaya/128.jpg",
-    "birthday": "1961-06-26T16:05:09.280Z",
-    "first_seen": "2020-07-16T15:15:18.390Z",
-    "last_seen": "2020-07-21T23:58:01.006Z",
-    "has_ordered": true,
-    "latest_purchase": "2019-03-23T15:38:18.983Z",
-    "has_newsletter": false,
-    "groups": [
-      "returns"
-    ],
-    "nb_commands": 3,
-    "total_spent": 692.04
-  },
-  {
-    "id": 7,
-    "first_name": "Pink",
-    "last_name": "Bashirian",
-    "email": "Pink_Bashirian@hotmail.com",
-    "address": null,
-    "zipcode": null,
-    "city": null,
-    "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/safrankov/128.jpg",
-    "birthday": null,
-    "first_seen": "2018-07-05T09:21:39.177Z",
-    "last_seen": "2020-08-05T09:35:52.761Z",
-    "has_ordered": false,
-    "latest_purchase": null,
-    "has_newsletter": true,
-    "groups": [
-      "regular"
-    ],
-    "nb_commands": 0,
-    "total_spent": 0
-  },
-  {
-    "id": 8,
-    "first_name": "Mylene",
-    "last_name": "Zulauf",
-    "email": "Mylene_Zulauf8@hotmail.com",
-    "address": null,
-    "zipcode": null,
-    "city": null,
-    "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/stan/128.jpg",
-    "birthday": null,
-    "first_seen": "2018-06-03T13:59:25.626Z",
-    "last_seen": "2020-06-30T13:31:21.572Z",
-    "has_ordered": false,
-    "latest_purchase": null,
-    "has_newsletter": true,
-    "groups": [],
-    "nb_commands": 0,
-    "total_spent": 0
-  },
-  {
-    "id": 9,
-    "first_name": "Liza",
-    "last_name": "Green",
-    "email": "Liza93@yahoo.com",
-    "address": "Reynold Motorway",
-    "zipcode": "48719-9555",
-    "city": "Tremblaymouth",
-    "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/exentrich/128.jpg",
-    "birthday": "2006-07-22T02:05:03.805Z",
-    "first_seen": "2020-05-28T11:12:11.644Z",
-    "last_seen": "2020-06-30T12:44:11.131Z",
-    "has_ordered": true,
-    "latest_purchase": "2020-05-08T16:08:49.799Z",
-    "has_newsletter": false,
-    "groups": [
-      "reviewer"
-    ],
-    "nb_commands": 3,
-    "total_spent": 691.71
-  },
-  {
-    "id": 10,
-    "first_name": "Ivah",
-    "last_name": "Hagenes",
-    "email": "Ivah81@gmail.com",
-    "address": null,
-    "zipcode": null,
-    "city": null,
-    "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/chris_witko/128.jpg",
-    "birthday": null,
-    "first_seen": "2018-08-11T07:26:12.561Z",
-    "last_seen": "2020-05-03T20:27:04.466Z",
-    "has_ordered": false,
-    "latest_purchase": null,
-    "has_newsletter": true,
-    "groups": [],
-    "nb_commands": 0,
-    "total_spent": 0
-  },
-  {
-    "id": 11,
-    "first_name": "Ryleigh",
-    "last_name": "O'Reilly",
-    "email": "Ryleigh_OReilly@yahoo.com",
-    "address": null,
-    "zipcode": null,
-    "city": null,
-    "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/pierrestoffe/128.jpg",
-    "birthday": null,
-    "first_seen": "2018-02-15T19:31:09.726Z",
-    "last_seen": "2019-04-13T02:42:42.712Z",
-    "has_ordered": false,
-    "latest_purchase": null,
-    "has_newsletter": true,
-    "groups": [],
-    "nb_commands": 0,
-    "total_spent": 0
-  },
-  {
-    "id": 12,
-    "first_name": "Ardella",
-    "last_name": "Baumbach",
-    "email": "Ardella_Baumbach27@gmail.com",
-    "address": null,
-    "zipcode": null,
-    "city": null,
-    "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/ccinojasso1/128.jpg",
-    "birthday": null,
-    "first_seen": "2019-11-02T15:28:10.179Z",
-    "last_seen": "2020-03-08T05:03:15.537Z",
-    "has_ordered": false,
-    "latest_purchase": null,
-    "has_newsletter": true,
-    "groups": [],
-    "nb_commands": 0,
-    "total_spent": 0
-  }
-]
 }
